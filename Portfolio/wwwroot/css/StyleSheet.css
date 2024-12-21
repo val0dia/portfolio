@@ -1,0 +1,63 @@
+﻿body {
+    font-family: 'Arial', sans-serif; /* Modern font */
+    margin: 0;
+    background-color: #f4f4f4; /* Subtle background color */
+    color: #333; /* Dark gray text for readability */
+    line-height: 1.6; /* Improved line spacing */
+}
+
+header {
+    background-color: #fff; /* White background for header */
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+    nav ul li {
+        display: inline;
+        margin-right: 20px;
+    }
+
+nav a {
+    text-decoration: none;
+    color: #333; /* Dark gray links */
+    font-weight: bold;
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+    nav a:hover {
+        color: #007bff; /* Blue color on hover (can be your preferred color) */
+    }
+
+main {
+    padding: 20px;
+    max-width: 800px; /* Limit content width for better readability */
+    margin: 0 auto; /* Center the content */
+}
+
+h2 {
+    color: #007bff; /* Blue heading color */
+}
+
+.profile-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; /* Make it circular */
+    object-fit: cover; /* Ensure image covers the circle */
+    margin: 20px auto; /* Center the image */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px; /* Add space above the footer */
+}
